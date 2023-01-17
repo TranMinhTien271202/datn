@@ -1,0 +1,22 @@
+{
+  "name": "ubwork",
+  "description": "TKW_1",
+  "main": "",
+  "authors": [
+    "VanDat2305 <datmv202@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ubwork/ubwork.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "client-bower": "https://github.com/ubwork/client-bower.git",
+    "admin-bower": "https://github.com/ubwork/admin-bower.git"
+  }
+}
