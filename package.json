@@ -7,13 +7,7 @@
         "watch-poll": "mix watch -- --watch-options-poll=1000",
         "hot": "mix watch --hot",
         "prod": "npm run production",
-        "production": "mix --production",
-        "develop": "concurrently \"react-scripts start\" \" nodemon ./src/services/server.js\"",
-        "start": "concurrently \"react-scripts start\" \" node ./src/services/server.js\"",
-        "build": "CI=false react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "seeds": "node ./src/services/seeds/index.js"
+        "production": "mix --production"
     },
     "devDependencies": {
         "axios": "^0.27",
