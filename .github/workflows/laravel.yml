@@ -38,7 +38,7 @@ jobs:
           composer require "illuminate/contracts=${{ matrix.laravel }}" --no-update
           composer update --prefer-dist --no-interaction --no-progress
         
-      - name: Generate Key
+      - name: Generate key
         run: php artisan key:generate
     
       - name: Execute tests
